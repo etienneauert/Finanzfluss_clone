@@ -80,7 +80,7 @@
 
 body {
     margin: 0; 
-    padding: 0; 
+    padding: 20px; 
     box-sizing: border-box;
 }
 
@@ -91,22 +91,29 @@ body {
 }
 
 header{
-    margin-top: 23px;
+    margin-top: 10px;
 }
 
 .header{
-    background-color: rgb(61, 82, 212);
+    background-color: rgb(77 107 221);
     border-radius: 10px;
     color: white;
-    
-}
-.header ul{
     display: flex;
-    list-style: none;
-    justify-content: space-between;
-    padding: 10px;
     align-items: center;
+    padding: 10px;
+    justify-content: space-between; /* Verteilt den Platz zwischen den flex-Elementen */
+    position: relative;
+}
 
+
+.header-middle{
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    position: absolute; /* Absolute Positionierung */
+    left: 50%;
+    transform: translateX(-50%); 
+    
 }
 
 .header-middle li{
@@ -116,4 +123,14 @@ header{
 
 .header-right{
     font-size: 23px;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.header-left  {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  
 }
