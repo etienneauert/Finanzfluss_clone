@@ -169,7 +169,7 @@ header{
 }
 
 
-.header-right-div :hover{
+.header-right:hover{
   background-color: rgb(70, 70, 207);
   
 
@@ -190,4 +190,66 @@ header{
   justify-content: center;
   margin-right: 10px;
   padding-top: 5px;
+}
+
+
+/* ------------------- */
+
+.news{
+  margin-top: 17px;
+  display: flex;
+  background-color: rgb(255 245 236);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.neu{
+  color: white;
+  background-color: rgb(255 155 63);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02rem;
+}
+
+.new-text-main p span{
+  font-weight: 500;
+  margin-right: 4px;
+
+}
+
+.new-text-main p{
+  font-weight: 300;
+}
+
+.new-text-main{
+  margin-right: 40px;
+}
+
+.compare-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.compare-text p{
+  color: rgb(255 155 63);
+  font-weight: 500;
+  margin-right: 7px;
+}
+
+.compare-text img{
+  width: 16px;
+  
 }
