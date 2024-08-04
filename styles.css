@@ -102,7 +102,7 @@ header{
 }
 
 .header{
-    background-color: rgb(77 107 221);
+    background-color: #4d6bdd;
     border-radius: 10px;
     color: white;
     display: flex;
@@ -126,7 +126,7 @@ header{
 }
 
 .header-middle li:hover{
-  background-color: rgb(70, 70, 207);
+  background-color: #4d6bdd;
 
 }
 
@@ -139,6 +139,7 @@ header{
     left: 50%;
     transform: translateX(-50%); 
     align-items: center;
+    white-space: nowrap;
     
 }
 
@@ -272,15 +273,16 @@ header{
  margin-top: 20px;
  border-radius: 10px;
  height: 482px;
+ justify-content: center;
+  align-items: center;
+  
 
 }
 
+
+
 .Opener-left{
-  width: 500px;
-  margin-top: 5%;
-  margin-right: 10px;
-  margin-left: 250px;
-  justify-content: center;
+  max-width: 500px;
 }
 
 .Opener-left-header{
@@ -303,6 +305,17 @@ header{
 .Opener-left-buttons{
   display: flex;
   margin-top: 40px;
+  
+}
+
+.Opener-left-button-left:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(58, 58, 203);
+}
+
+.Opener-left-button-right:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(230, 233, 251);
 }
 
 .Opener-left-button-left{
@@ -313,6 +326,8 @@ header{
   border-radius: 7px;
   font-size: 17px;
   margin-right: 40px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .Opener-left-button-right{
@@ -320,10 +335,11 @@ header{
   border: solid 1px rgb(70, 70, 207);
   padding: 15px;
   border-radius: 7px;
-  color: rgb(70, 70, 207);
+  color: #4d6bdd;
   font-size: 17px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .Opener-left-button-right img{
@@ -331,21 +347,16 @@ header{
   margin-right: 7px;
 }
 
-
-
-.Opener-right img{
-  width: auto; /* Maintain aspect ratio */
-  max-width: 100%; /* Ensures the image does not exceed the container's width */
-  height: auto; /* Maintain aspect ratio */
-  max-height: 400px; 
-  display: flex;
-  justify-content: flex-end;
-}
-
 .Opener-right{
-  flex: 1;
-  display: flex;
-  align-items: flex-end; /* Aligns the image at the bottom */
-  
+  align-items: baseline;
+  justify-content: baseline;
+  margin-top: 118px;
+
+}
+.Opener-right img{
+  max-width: 450px;
   
 }
+
+
+
