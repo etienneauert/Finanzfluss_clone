@@ -225,8 +225,8 @@ header {
   margin-top: 110px;
   display: flex;
   background-color: rgb(255 245 236);
-  padding-top: 17px;
-  padding-bottom: 9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -448,7 +448,7 @@ header {
 }
 
 .vergleichsrechner-top li:hover{
-  transform: scale(1.06); /* Skaliert das Element auf 110% seiner Größe */
+  transform: scale(1.05); /* Skaliert das Element auf 110% seiner Größe */
   box-shadow: 0 8px 32px #0000001a, 0 0 4px #0000004d;
 }
 
@@ -542,7 +542,7 @@ header {
 }
 
 .vergleichsrechner-bottom li:hover{
-  transform: scale(1.06); /* Skaliert das Element auf 110% seiner Größe */
+  transform: scale(1.05); /* Skaliert das Element auf 110% seiner Größe */
   box-shadow: 0 8px 32px #0000001a, 0 0 4px #0000004d;
 }
 
