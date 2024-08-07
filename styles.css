@@ -405,12 +405,14 @@ header {
   
   justify-content: center;
   align-items: center;
+  
 }
 
 .vergleichsrechner-content ul{
   list-style: none;
   display: flex;
   justify-content: center;
+  
 }
 /* top */
 
@@ -419,6 +421,7 @@ header {
   padding: 12px;
   background-color: #edf0fc;
   border-radius: 10px;
+  
   
 }
 .vergleichsrechner-top p{
@@ -440,6 +443,13 @@ header {
   border-radius: 10px;
   width: 195px;
   justify-content: center;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+
+.vergleichsrechner-top li:hover{
+  transform: scale(1.06); /* Skaliert das Element auf 110% seiner Größe */
+  box-shadow: 0 8px 32px #0000001a, 0 0 4px #0000004d;
 }
 
 .girokonto {
@@ -527,7 +537,16 @@ header {
   border-radius: 10px;
   width: 195px;
   justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
+
+.vergleichsrechner-bottom li:hover{
+  transform: scale(1.06); /* Skaliert das Element auf 110% seiner Größe */
+  box-shadow: 0 8px 32px #0000001a, 0 0 4px #0000004d;
+}
+
+
 
 .depot {
   display: flex;
