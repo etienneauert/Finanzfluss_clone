@@ -100,7 +100,7 @@ body {
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(2px) saturate(1.5) brightness(1.1);
+  backdrop-filter: blur(3px) saturate(1.8) brightness(1) contrast(1) ;
   
   z-index: 1000;
   display: flex;
@@ -112,7 +112,7 @@ body {
 
 header {
   position: fixed;
-  top: 20px;
+  top: 24px;
   left: 0;
   width: 100%;
   padding-left: 22px;
@@ -222,10 +222,10 @@ header {
 /* News-box */
 
 .news{
-  margin-top: 100px;
+  margin-top: 110px;
   display: flex;
   background-color: rgb(255 245 236);
-  padding-top: 9px;
+  padding-top: 17px;
   padding-bottom: 9px;
   border-radius: 10px;
   justify-content: center;
@@ -377,10 +377,217 @@ header {
   
 }
 
-.test{
-  height: 800px;
-  padding: 600px;
+
+
+
+/* Vergleichsrechner */
+
+
+.vergleichsrechner {
+  
+  justify-content: center;
+  align-items: center;
 }
+
+
+.vergleichsrechner-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  font-size: 33px;
+  font-weight: 600;
+  color: rgb(21 40 75);
+  letter-spacing: 0.6px;
+}
+
+.vergleichsrechner-content{
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.vergleichsrechner-content ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+/* top */
+
+.vergleichsrechner-top img{
+  width: 55px;
+  padding: 12px;
+  background-color: #edf0fc;
+  border-radius: 10px;
+  
+}
+.vergleichsrechner-top p{
+  margin-top: 20px;
+  color: rgb(21 40 75);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.vergleichsrechner-top li{
+  
+  background-color: white;
+  box-shadow: 0 4px 24px #00000014, 0 0 2px #00000029;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 195px;
+  justify-content: center;
+}
+
+.girokonto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.girokonto-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.kreditkarte {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kreditkarte-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tagesgeld {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tagesgeld-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.festgeld {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.festgeld-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* bottom */
+
+.vergleichsrechner-bottom img{
+  width: 55px;
+  padding: 12px;
+  background-color: #edf0fc;
+  border-radius: 10px;
+  
+}
+.vergleichsrechner-bottom p{
+  margin-top: 20px;
+  color: rgb(21 40 75);
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.vergleichsrechner-bottom li{
+  
+  background-color: white;
+  box-shadow: 0 4px 24px #00000014, 0 0 2px #00000029;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 195px;
+  justify-content: center;
+}
+
+.depot {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.depot-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.etf-sparplan {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.etf-sparplan-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kryptobörse {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.kryptobörse-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.steuerprogramm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.steuerprogramm-p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
 
 
 
